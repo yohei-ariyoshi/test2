@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6"　initial-scale=1.0  user-scalable=yes>
+<title>Dress Box</title>
+<link rel="stylesheet" href="./style.css">
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/scroll.js"></script>
+<script type="text/javascript" src="./js/jquery.bxslider/jquery.bxslider.min.js"></script>
+<link href="./js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: false,
+    controls: false,
+    pager: false,
+    auto: true,
+    pause:  5500,
+    speed: 800,
+  });
+});
+</script>
+</head>
+
+<body>
+
+  <div id="header">
+    <header class="header-sp">
+      <div class="sp-header-logo">
+        <h1><a href=""></a></h1>
+      </div>
+      <div class="sp-header-menu">
+        <nav>
+          <ul>
+            <li class="sp-menu-mypage">
+              <a href=""><span>マイページ</span></a>
+            </li>
+            <li class="sp-menu-fav">
+              <a href=""><span>お気に入り</span></a>
+            </li>
+            <li class="sp-menu-item">
+              <a href=""><span>アイテム</span></a>
+            </li>
+            <li class="sp-menu-search">
+              <a href=""><span>検索</span></a>
+            </li>
+            <li class="sp-menu-cart">
+              <a href=""><span>カート</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="regular-header">
+      <h1 class="site-logo">
+        <a class="dressbox-logo" href="">Dress Box</a>
+      </h1>
+      <nav class="left">
+        <ul class="primary-menu left">
+          <li><a href="">Dress Boxについて</a></li>
+          <li><a href="">送料・お支払方法</a></li>
+          <li><a href="">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="header-cart right">
+        <a href="">
+          <div class="center">
+            <img src="img/cart.svg">
+          </div>
+        </a>
+      </div>
+      <form class="nav-search">
+        <img src="img/search.svg">
+        <input aria-label="Search Projects" class="nav-search-input" data-tracker-name="" id="term" name="term" placeholder="カテゴリー・キーワードで探す" type="text" autocomplete="off">
+      </form>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <div class="row w960">
+
+      <div class="contents">
+        <div>
+          <div class="form-container clearfix">
+            <div class="registration form">
+              <table>
+                <tbody>
+                  <tr class="table_bottom_border">
+                    <th colspan="2">クレジットカード情報の変更</th>
+                    <td></td>
+                  </tr>
+                  <tr class="table_bottom_border">
+                    <th>カード番号</th>
+                    <td class="pass-form"><input type="password" name="" placeholder=""></td>
+                  </tr>
+                  <tr class="table_bottom_border">
+                    <th>有効期限</th>
+                    <td class="valid-date">
+                      <input type="text" name=""><span>月</span>
+                      <input type="text" name=""><span>年</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div>
+                <input type="submit" value="変更する">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- contents -->
+
+      <div class="side">
+        <h1>マイページ</h1>
+        <div class="side-selecter">
+          <section class="side-box">
+            <div class="headline">
+              <h2>会員情報</h2>
+            </div>
+            <ul class="selectlist">
+              <li><a href="">会員登録情報</a></li>
+              <li><a href="">クレジットカード情報</a></li>
+              <li><a href="">お気に入りの服</a></li>
+              <li><a href="">閲覧履歴</a></li>
+            </ul>
+          </section>
+
+          <section class="side-box">
+            <div class="headline">
+              <h2>注文履歴</h2>
+            </div>
+            <ul class="selectlist">
+              <li><a href="">借りている服</a></li>
+            </ul>
+          </section>
+
+          <section class="side-box">
+            <div class="headline">
+              <h2>退会</h2>
+            </div>
+            <ul class="selectlist">
+              <li><a href="">退会手続き</a></li>
+            </ul>
+          </section>
+
+        </div><!-- side-selecter -->
+
+      </div><!-- side -->
+    </div>
+  </main>
+  <div class="footer">
+    <div class="footer-content w960">
+      <ul>
+        <li><a href="">お支払方法について</a></li>
+        <li><a href="">個人情報の取り扱いについて</a></li>
+        <li><a href="">運営会社</a></li>
+        <li><a href="">お問い合わせ</a></li>
+      </ul>
+      <p class="copyright">©Copyright Dress Box.All Rights Reserved.</p>
+    </div>
+  </div>
+
+</body>
+</html>
